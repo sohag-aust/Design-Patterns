@@ -1,3 +1,5 @@
+package StrategyPattern_Ex2.src;
+
 import TravelByVehicleMethod.TravelByVehicleMethod;
 import VehicleFactory.VehicleFactory;
 
