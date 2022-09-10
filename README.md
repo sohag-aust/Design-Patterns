@@ -1,2 +1,2 @@
 ### 1. Strategy Pattern
-### 2. Chain of Responsibility
+### 2. Chain of Responsibility Pattern
