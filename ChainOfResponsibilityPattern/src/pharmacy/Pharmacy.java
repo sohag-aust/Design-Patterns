@@ -1,10 +1,10 @@
-package ChainOfResponsibilityPattern.src.pharmacy;
+package pharmacy;
 
-import ChainOfResponsibilityPattern.src.chain.MedicineChain;
-import ChainOfResponsibilityPattern.src.stocks.CentralInventoryPharmaceuticals;
-import ChainOfResponsibilityPattern.src.stocks.Distributor;
-import ChainOfResponsibilityPattern.src.stocks.PharmacyFrontDesk;
-import ChainOfResponsibilityPattern.src.stocks.PharmacyInHouseStock;
+import chain.MedicineChain;
+import stocks.CentralInventoryPharmaceuticals;
+import stocks.Distributor;
+import stocks.PharmacyFrontDesk;
+import stocks.PharmacyInHouseStock;
 
 public class Pharmacy {
     private MedicineChain medicineChain1;

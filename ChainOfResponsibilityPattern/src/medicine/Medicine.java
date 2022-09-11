@@ -1,4 +1,4 @@
-package ChainOfResponsibilityPattern.src.medicine;
+package medicine;
 
 public class Medicine {
     private String medicineName;

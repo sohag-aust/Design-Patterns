@@ -1,6 +1,6 @@
-package ChainOfResponsibilityPattern.src.chain;
+package chain;
 
-import ChainOfResponsibilityPattern.src.medicine.Medicine;
+import medicine.Medicine;
 
 public interface MedicineChain {
     void setNextMedicineInventoryChain(MedicineChain medicineChain);

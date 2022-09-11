@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" filepath="$PROJECT_DIR$/ChainOfResponsibilityPattern/ChainOfResponsibilityPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Patterns.iml" filepath="$PROJECT_DIR$/.idea/Design_Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern_Ex1/StrategyPattern_Ex1.iml" filepath="$PROJECT_DIR$/StrategyPattern_Ex1/StrategyPattern_Ex1.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern_Ex2/StrategyPattern_Ex2.iml" filepath="$PROJECT_DIR$/StrategyPattern_Ex2/StrategyPattern_Ex2.iml" />

@@ -1,7 +1,7 @@
-package ChainOfResponsibilityPattern.src.stocks;
+package stocks;
 
-import ChainOfResponsibilityPattern.src.chain.MedicineChain;
-import ChainOfResponsibilityPattern.src.medicine.Medicine;
+import chain.MedicineChain;
+import medicine.Medicine;
 
 import java.util.ArrayList;
 import java.util.Arrays;

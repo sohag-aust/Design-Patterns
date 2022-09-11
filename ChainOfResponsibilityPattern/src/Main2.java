@@ -1,11 +1,9 @@
-package ChainOfResponsibilityPattern.src;
-
-import ChainOfResponsibilityPattern.src.medicine.Medicine;
-import ChainOfResponsibilityPattern.src.pharmacy.Pharmacy;
+import medicine.Medicine;
+import pharmacy.Pharmacy;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main2 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
