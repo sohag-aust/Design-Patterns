@@ -45,10 +45,21 @@ public class Developer {
         return pipelineQueue.poll();
     }
 
-    private void deployProduct() {
+    private void pipelineExecution() {
         JenkinsPipeline currentPipeline = getPipeline();
         pipelineContext.setJenkinsPipelineState(currentPipeline);
         pipelineContext.deployProduct();
+    }
+
+    private void exitTimer() {
+        System.out.println("\n==** Your Product is Successfully Deployed **==");
+        // exit the timer
+        timer.cancel();
+        timer.purge();
+    }
+
+    private void deployProduct() {
+        pipelineExecution();
 
         timer.schedule(new TimerTask() {
             @Override
@@ -58,9 +69,7 @@ public class Developer {
 
                 if(progress >= 100 && !pipelineQueue.isEmpty()) {
                     progress = 0;
-                    JenkinsPipeline currentPipeline = getPipeline();
-                    pipelineContext.setJenkinsPipelineState(currentPipeline);
-                    pipelineContext.deployProduct();
+                    pipelineExecution();
 
                     try {
                         Thread.sleep(10 * 1000);
@@ -70,10 +79,7 @@ public class Developer {
                 }
 
                 if(progress >= 100 && pipelineQueue.isEmpty()) {
-                    System.out.println("\n==** Your Product is Successfully Deployed **==");
-                    // exit the timer
-                    timer.cancel();
-                    timer.purge();
+                    exitTimer();
                 }
             }
         }, 0, 2000);
