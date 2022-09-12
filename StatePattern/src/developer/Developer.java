@@ -52,10 +52,18 @@ public class Developer {
     }
 
     private void exitTimer() {
-        System.out.println("\n==** Your Product is Successfully Deployed **==");
+        System.out.println("\n==** Your Application is Successfully Deployed **==");
         // exit the timer
         timer.cancel();
         timer.purge();
+    }
+
+    private void delay() {
+        try {
+            Thread.sleep(5 * 1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     private void deployProduct() {
@@ -69,13 +77,9 @@ public class Developer {
 
                 if(progress >= 100 && !pipelineQueue.isEmpty()) {
                     progress = 0;
-                    pipelineExecution();
 
-                    try {
-                        Thread.sleep(10 * 1000);
-                    } catch (InterruptedException e) {
-                        throw new RuntimeException(e);
-                    }
+                    pipelineExecution();
+                    delay();
                 }
 
                 if(progress >= 100 && pipelineQueue.isEmpty()) {
