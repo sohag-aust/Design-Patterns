@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Patterns.iml" filepath="$PROJECT_DIR$/.idea/Design_Patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/MediatorPattern/MediatorPattern.iml" filepath="$PROJECT_DIR$/MediatorPattern/MediatorPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" filepath="$PROJECT_DIR$/ObserverPattern/ObserverPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StatePattern/StatePattern.iml" filepath="$PROJECT_DIR$/StatePattern/StatePattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern_Ex1/StrategyPattern_Ex1.iml" filepath="$PROJECT_DIR$/StrategyPattern_Ex1/StrategyPattern_Ex1.iml" />
       <module fileurl="file://$PROJECT_DIR$/StrategyPattern_Ex2/StrategyPattern_Ex2.iml" filepath="$PROJECT_DIR$/StrategyPattern_Ex2/StrategyPattern_Ex2.iml" />
     </modules>

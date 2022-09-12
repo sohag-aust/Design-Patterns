@@ -17,6 +17,5 @@ public class Main {
         int qty = sc.nextInt();
 
         pharmacy.getDefaultMedicineChain().dispense(new Medicine(medicineName, qty));
-
     }
 }
