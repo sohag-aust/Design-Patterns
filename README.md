@@ -3,3 +3,4 @@
 ### 3. Observer Pattern
 ### 4. Mediator Pattern
 ### 5. State Pattern
+### 6. Iterator Pattern
