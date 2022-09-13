@@ -4,3 +4,4 @@
 ### 4. Mediator Pattern
 ### 5. State Pattern
 ### 6. Iterator Pattern
+### 7. Command Pattern
