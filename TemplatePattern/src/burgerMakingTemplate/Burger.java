@@ -5,6 +5,7 @@ public abstract class Burger {
     //template method, final so subclasses can't override
     public final void makeBurger(String bun, String patty, boolean isForDeliver) {
         selectBun(bun);
+        toastBun();
         addPatty(patty);
         cookBurger();
         addSauce();
